@@ -22,13 +22,8 @@ import pages.LoginPage
 
 import org.openqa.selenium.Keys as Keys
 
-'Navigate to the page'
-Common common = new Common()
-common.navigateToUrl(GlobalVariable.baseUrl)
-
-'Login to the application with valid username and password'
-LoginPage loginPage = new LoginPage()
-loginPage.loginToTheApplication(GlobalVariable.username, GlobalVariable.password)
+WebUI.callTestCase(findTestCase('PIM/Add New Employee with Full Name and Image'), [('empFirstName') : 'Joe', ('empMiddleName') : 'Katalon'
+        , ('empLastName') : 'Sales'], FailureHandling.OPTIONAL)
 
 'Navigate to Admin menu'
 AdminPage adminPage = new AdminPage()
@@ -40,13 +35,13 @@ adminPage.selectUsersMenuFromUserManagementTopBarMenu()
 'Add new ESS user'
 AddUserPage addUserPage = new AddUserPage()
 String username = 'Katalon_ESS_User_' + new Random().nextInt(1000) + 1
-addUserPage.addNewUser('ESS', 'Enabled', 'John Doe', username, '1Password*', '1Password*')
+addUserPage.addNewUser('ESS', 'Enabled', 'Joe Sales', username, '1Password*', '1Password*')
 
 'Search and verify newly added user details'
-adminPage.searchUsersByUserBy_Username_UserRole_EmployeeName_Status(username, 'ESS', 'John Doe', 'Enabled')
+adminPage.searchUsersByUserBy_Username_UserRole_EmployeeName_Status(username, 'ESS', 'Joe Sales', 'Enabled')
 
 'Verify newly added user details'
-adminPage.verifyUsersFilteredBy_Username_Role_EmployeeName_Status(username, 'ESS', 'John Doe', 'Enabled')
+adminPage.verifyUsersFilteredBy_Username_Role_EmployeeName_Status(username, 'ESS', 'Joe Sales', 'Enabled')
 WebUI.comment('Verified that, \"' + username + '\" user details are shown correctly"')
 
 'Delete the ESS user'
