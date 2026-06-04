@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>widget_dashboardPageWidget</name>
+   <tag></tag>
+   <elementGuidId>b3a873d8-243c-43e2-a7e0-f55c29b2dd06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'orangehrm-dashboard-widget')]//div[@class='orangehrm-dashboard-widget-name']/p[text()='${dashboard_page_widget_name}']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

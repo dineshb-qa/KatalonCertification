@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Employee List by Employment Status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f3e3054-1b79-4ca4-82c6-7e7979fe9fa9</testCaseGuid>
+</TestCaseEntity>

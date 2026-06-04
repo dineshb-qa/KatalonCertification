@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter User List by Admin Role and Disabled Status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>136a21fe-1653-47fc-8147-933ec3f4b3fb</testCaseGuid>
+</TestCaseEntity>

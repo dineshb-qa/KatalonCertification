@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Widgets on Dashboard Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f3fbfdb-499a-4367-a6dd-c44ad8d723de</testCaseGuid>
+</TestCaseEntity>

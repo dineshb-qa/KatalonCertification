@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter User List by ESS Role and Enabled Status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a879ff7-54e3-41e6-9a40-2eb52e9cf95e</testCaseGuid>
+</TestCaseEntity>

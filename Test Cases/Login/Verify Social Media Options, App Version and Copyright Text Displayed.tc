@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Social Media Options, App Version and Copyright Text Displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>340cc28d-656c-42b7-9b6a-495f86d33f27</testCaseGuid>
+</TestCaseEntity>

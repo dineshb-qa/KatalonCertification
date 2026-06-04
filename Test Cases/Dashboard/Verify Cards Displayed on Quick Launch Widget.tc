@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Cards Displayed on Quick Launch Widget</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31ff9bba-cd08-4b17-a314-a34ba125b33a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a9ba402-5a5c-4172-a4bc-afa97a9c608b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Dashboard/Quick Launch Widget Cards')</defaultValue>
+      <description></description>
+      <id>2a9ba402-5a5c-4172-a4bc-afa97a9c608b</id>
+      <masked>false</masked>
+      <name>quick_launch_card_name</name>
+   </variable>
+</TestCaseEntity>

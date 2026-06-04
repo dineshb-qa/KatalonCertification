@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter User List by ESS Role and Disabled Status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2464c8e-d3d6-4c49-8bc6-7dec5c1348a9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Orange HRM Logo is Present</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e84dddb7-bc77-46a5-be14-b98d64241ae3</testCaseGuid>
+</TestCaseEntity>

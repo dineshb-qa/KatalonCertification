@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Employee List by Sub Unit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>332fb2f5-6ef2-4c37-8dae-41780feaa590</testCaseGuid>
+</TestCaseEntity>
