@@ -15,19 +15,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
+import pages.AddUserPage
 import pages.AdminPage
 import pages.Common
 import pages.LoginPage
 
 import org.openqa.selenium.Keys as Keys
 
-'Navigate to the page'
-Common common = new Common()
-common.navigateToUrl(GlobalVariable.baseUrl)
-
-'Login to the application with valid username and password'
-LoginPage loginPage = new LoginPage()
-loginPage.loginToTheApplication(GlobalVariable.username, GlobalVariable.password)
+WebUI.callTestCase(findTestCase('PIM/Add New Employee with Full Name and Image'), [('empFirstName') : 'Neeraj', ('empMiddleName') : 'Katalon'
+        , ('empLastName') : 'Sharma'], FailureHandling.OPTIONAL)
 
 'Navigate to Admin menu'
 AdminPage adminPage = new AdminPage()
@@ -35,6 +31,11 @@ adminPage.navigateToAdminMenu()
 
 'Select "Users" menu from "User Management"'
 adminPage.selectUsersMenuFromUserManagementTopBarMenu()
+
+'Add new Admin user with disabled status'
+AddUserPage addUserPage = new AddUserPage()
+String username = ('Katalon_Admin_User_' + new Random().nextInt(1000)) + 1
+addUserPage.addNewUser('Admin', 'Enabled', 'Neeraj Sharma', username, '1Password*', '1Password*')
 
 'Search System Users by Admin role and Disabled status'
 adminPage.searchUsersByUserByRoleAndStatus("Admin", "Disabled")

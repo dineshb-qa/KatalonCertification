@@ -17,6 +17,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PIM/Add New Employee with Full Name and Image</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d24d6417-85b8-40fa-bc27-c56c916de449</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e643ec94-a57d-422a-8464-7554af5cf0bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e1ce6f1-903c-43a9-a6b2-d27307801599</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>558021e0-c8ab-43fe-90dd-1e3b87a68981</guid>

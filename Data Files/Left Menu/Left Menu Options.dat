@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>99617371-d80c-4fdf-9abe-d6e61f413b98</dataFileGUID>
-   <dataSourceUrl>C:\Users\Dinesh.Biradar\Katalon Studio\KatalonCertification\Test Data\left_menu_options.csv</dataSourceUrl>
+   <dataSourceUrl>Test Data/left_menu_options.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

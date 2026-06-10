@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7757a22c-2f40-4121-a57f-03676c0905c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d24d6417-85b8-40fa-bc27-c56c916de449</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e643ec94-a57d-422a-8464-7554af5cf0bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e1ce6f1-903c-43a9-a6b2-d27307801599</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Aaron'</defaultValue>
+      <description></description>
+      <id>d24d6417-85b8-40fa-bc27-c56c916de449</id>
+      <masked>false</masked>
+      <name>empFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon'</defaultValue>
+      <description></description>
+      <id>e643ec94-a57d-422a-8464-7554af5cf0bf</id>
+      <masked>false</masked>
+      <name>empMiddleName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dosio'</defaultValue>
+      <description></description>
+      <id>8e1ce6f1-903c-43a9-a6b2-d27307801599</id>
+      <masked>false</masked>
+      <name>empLastName</name>
+   </variable>
 </TestCaseEntity>

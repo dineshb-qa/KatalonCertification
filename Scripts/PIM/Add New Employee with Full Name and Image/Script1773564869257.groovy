@@ -41,10 +41,10 @@ pimPage.selectAddEmployeeuFromTopBarMenu()
 'Add new employee'
 AddEmployeePage addEmployeePage = new AddEmployeePage()
 String employeeId = 'EMP_' + new Random().nextInt(100) + 1
-addEmployeePage.createNewEmployeeWithFullNameDetails_WithEmployeeIDAndImage('Aaron', 'Manuel', 'Dosio', employeeId, RunConfiguration.getProjectDir() + "/Include/resources/inspectocat.jpg")
+addEmployeePage.createNewEmployeeWithFullNameDetails_WithEmployeeIDAndImage(empFirstName, empMiddleName, empLastName, employeeId, RunConfiguration.getProjectDir() + "/Include/resources/inspectocat.jpg")
 
 'Search and Verify new Employee Details'
 pimPage.selectEmployeeListMenuFromTopBarMenu()
 pimPage.searchEmployeeListByEmployeeId(employeeId)
-pimPage.verifyEmployeeListFilteredBy_EmployeeId_FirstName_MiddleName_LastName(employeeId, 'Aaron', 'Manuel', 'Dosio')
+pimPage.verifyEmployeeListFilteredBy_EmployeeId_FirstName_MiddleName_LastName(employeeId, empFirstName, empMiddleName, empLastName)
 WebUI.comment('Verified that, \"' + employeeId + '\" employee details are shown correctly"')
